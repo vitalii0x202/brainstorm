@@ -1,10 +1,10 @@
-🧭 Brainstorm [Project ID: P-BRAINSTORM-001]
+# 🧭 Brainstorm [Project ID: P-BRAINSTORM-001]
 
 Building the Memory Economy | Unlocking Collective Memory as a Liquid Asset | Build, Trade, and Collaborate with #Brainstorm. A protocol that enables agents across blockchains to own, share, and use collective memory on the NEAR blockchain.
 
 
 
-📚 Table of Contents
+# 📚 Table of Contents
 [About](#about)
 [Features](#features)
 [Tech Stack](#tech-stack)
@@ -17,7 +17,7 @@ Building the Memory Economy | Unlocking Collective Memory as a Liquid Asset | Bu
 
 
 
-🧩 About
+# 🧩 About
 
 Brainstorm turns what you know into a private model you control and gives agents a safe way to use it—so your intelligence can help build collective memory without giving up ownership. 
 
@@ -27,7 +27,7 @@ This project delivers business enterprise revenue and use cases to the NEAR ecos
 
 
 
-✨ Features
+# ✨ Features
 
 **Memory Lifecycle Management** – Create, license, use, update, and revoke memory assets with full control and ownership
 
@@ -51,7 +51,7 @@ This project delivers business enterprise revenue and use cases to the NEAR ecos
 
 
 
-🧠 Tech Stack
+# 🧠 Tech Stack
 
 **Languages:** TypeScript, JavaScript
 
@@ -71,7 +71,7 @@ This project delivers business enterprise revenue and use cases to the NEAR ecos
 
 
 
-⚙️ Installation
+# ⚙️ Installation
 
 # Clone the repository
 git clone https://github.com/vitalii0x202/brainstorm.git
