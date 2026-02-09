@@ -1,0 +1,48 @@
+
+.hero-container::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(20, 20, 20, 0.007);
+    border-bottom: 2px solid rgba(219, 255, 173, 0.247);
+    border-right: 2px solid rgba(219, 255, 173, 0.190);
+    border-left: 2px solid rgba(219, 255, 173, 0.190);
+    border-top: 2px solid rgba(219, 255, 173, 0.138);
+    z-index: 11;
+  }
+  
+  .overlayR {
+    filter: drop-shadow(-2px 0px 1px #cdff8b69);
+  }
+  
+  .overlayL {
+    filter: drop-shadow(2px 0px 1px #cdff8b69);
+  }
+  
+  .overlayB {
+    filter: drop-shadow(0px -2px 1px #cdff8b69);
+  }
+
+  @media screen and (max-width: 1480px) {
+    .overlayB {
+      width:22rem ;
+    }
+  }
+
+
+  @media screen and (max-width: 1124px) {
+    .overlayB {
+      width:20rem ;
+    }
+  }
+
+  @media screen and (max-width:624px) {
+    .overlayB {
+      width:100% ;
+    }
+  }
+  
+  

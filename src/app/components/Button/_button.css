@@ -1,0 +1,16 @@
+.buttonWhitelist{
+    background: linear-gradient(
+        80deg,
+        #4EA0D8 0%,
+        #588FCC 10%,
+        #6C6DB4 20%,
+        #7859A6 30%,
+        #7D52A1 40%,
+        #7F52A0 50%,
+        #8752A0 60%,
+        #94539F 70%,
+        #A7549D 80%,
+        #C0559C 90%,
+        #DF579A 100%
+      );
+}

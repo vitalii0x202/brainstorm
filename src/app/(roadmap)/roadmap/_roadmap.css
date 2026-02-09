@@ -1,0 +1,151 @@
+.heroRoadmap {
+  position: relative;
+  width: 100%;
+}
+
+.heroRoadmap::after {
+  content: "";
+  position: absolute;
+  /* background-image: url(/assets/image/bgRoadmap.png); */
+  width: 100%;
+  height: 100%;
+  top: -2rem;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.heroRoadmap h1 {
+  background: radial-gradient(
+    60% 100% at 50% 50%,
+    #eeeeee 50%,
+    hsla(0, 0%, 83%, 0.815) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  letter-spacing: -1px;
+}
+
+.cardRoadmap {
+  flex: 0 0 auto;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: rgba(20, 20, 26, 0.048);
+  background-image: radial-gradient(
+      at 88% 40%,
+      rgba(0, 0, 0, 0.089) 0px,
+      transparent 85%
+    ),
+    radial-gradient(at 49% 30%, rgba(9, 9, 12, 0.623) 0px, transparent 85%),
+    radial-gradient(at 14% 26%, rgba(0, 0, 0, 0.774) 0px, transparent 85%),
+    radial-gradient(at 0% 64%, hsla(0, 0%, 0%, 0.733) 0px, transparent 85%),
+    radial-gradient(at 41% 94%, hsla(0, 0%, 0%, 0.637) 0px, transparent 85%),
+    radial-gradient(
+      at 100% 99%,
+      hsla(253, 34%, 45%, 0.315) 0px,
+      transparent 85%
+    );
+  border-radius: 1rem;
+  box-shadow: 0px -6px 18px 0px rgba(255, 255, 255, 0.212) inset;
+  user-select: none;
+  transition: all 0.4s ease;
+}
+
+.cardRoadmap:hover {
+  background-color: hsla(240, 15%, 9%, 1);
+  background-image: radial-gradient(
+      at 88% 40%,
+      rgb(0, 0, 0) 0px,
+      transparent 85%
+    ),
+    radial-gradient(at 49% 30%, rgba(9, 9, 12, 0.623) 0px, transparent 85%),
+    radial-gradient(at 14% 26%, rgba(0, 0, 0, 0.774) 0px, transparent 85%),
+    radial-gradient(at 0% 64%, hsla(0, 0%, 0%, 0.733) 0px, transparent 85%),
+    radial-gradient(at 41% 94%, hsla(0, 0%, 0%, 0.637) 0px, transparent 85%),
+    radial-gradient(
+      at 100% 99%,
+      hsla(253, 70%, 69%, 0.733) 0px,
+      transparent 85%
+    );
+  box-shadow: 0px -6px 18px 0px rgba(255, 255, 255, 0.26) inset;
+  transition: all 0.4s ease;
+}
+
+.titleColorTimeline {
+  background: -webkit-linear-gradient(#aa98fa, #9ea3ec, #fad4ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 4px solid transparent;
+  display: inline;
+}
+
+.cardsContainer {
+  cursor: grab !important;
+}
+
+.cardsContainer:active {
+  cursor: grabbing !important;
+}
+
+.cardsContainer::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0px;
+}
+
+.cardsContainer::-webkit-scrollbar-thumb:hover {
+  background-color: transparent;
+}
+
+.cardsContainer::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.ping {
+  --uib-size: 20px;
+  --uib-speed: 2s;
+  --uib-color: #b48fd3;
+  position: relative;
+  height: var(--uib-size);
+  width: var(--uib-size);
+}
+
+.ping::before,
+.ping::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: var(--uib-color);
+  animation: pulse7132 var(--uib-speed) linear infinite;
+  transform: scale(0);
+  opacity: 0;
+}
+
+.ping::after {
+  animation-delay: calc(var(--uib-speed) / -2);
+}
+
+@keyframes pulse7132 {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}

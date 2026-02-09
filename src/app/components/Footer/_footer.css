@@ -1,0 +1,26 @@
+.follow_footer {
+  font-size: 40px;
+  line-height: 130%;
+  color:#ebebeb;
+  font-weight: 900;
+  position: relative;
+}
+
+.font_footer{
+  font-size: clamp(1.8rem, calc(20.5vw + 1rem), 30rem);
+}
+
+@media screen and (max-width: 768px) {
+  .contacfollow_footert_title {
+    font-size: 2.4rem;
+  }
+}
+
+
+
+@media screen and (max-width: 440px) {
+  .font_footer{
+    font-size: clamp(1.8rem, calc(15vw + 1rem), 30rem);
+    margin-bottom: 3rem;
+  }
+}

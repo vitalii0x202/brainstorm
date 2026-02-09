@@ -1,0 +1,195 @@
+.box_cards_discover {
+  position: relative;
+  z-index: 1;
+}
+
+.cardBst {
+  background-size: cover;
+  position: relative;
+  perspective: 1000px;
+  transition-duration: 500ms;
+  flex: 1 1 0%;
+  z-index: 2;
+  border: 1px solid #bdbdbd6e;
+  transition: all 0.3s ease-in-out;
+  max-width: 23.8rem;
+}
+
+.cardBst:hover {
+  border: 1px solid #95ff009c;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 760px) {
+  .cardBst, .cardAgent{
+    border: 1px solid #95ff009c;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.cardAgent:hover{
+  border: 1px solid #95ff009c;
+  transition: all 0.3s ease-in-out;
+}
+
+.front,
+.back {
+  display: flex;
+  border-radius: 6px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: ease-in-out 600ms;
+}
+
+.front {
+  background-size: cover;
+  padding: 2rem;
+  background: black;
+  overflow: hidden;
+}
+
+.front p {
+  background-size: cover;
+  padding: 0rem 1.4rem;
+  font-size: 1.1rem;
+  color: #adadad;
+  font-weight: 700;
+  overflow: hidden;
+  position: absolute;
+  text-align: start;
+  bottom: 0rem;
+  left: 0;
+  min-height: 4.8rem;
+  padding-bottom: 1rem;
+}
+
+.front:before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  z-index: -1;
+  background: black;
+  border-radius: 20px;
+}
+ 
+
+.c-network {
+  height: 1em;
+  perspective-origin: 100% 0;
+  transform-origin: 100% 0;
+  font-variation-settings: "wght" 800;
+  letter-spacing: -0.001em;
+  font-size: 4em;
+  text-align: start;
+  width: 16rem;
+  line-height: 1em;
+  position: absolute;
+  text-transform: uppercase;
+  top: 15rem;
+  bottom: 0%;
+  left: -11rem;
+  color: rgba(255, 255, 255, 0.045);
+  user-select: none;
+  pointer-events: none;
+  transform: translate(-25%, -175%) rotate(-90deg);
+}
+
+.c-network-title{
+  height: 1em;
+  perspective-origin: 100% 0;
+  transform-origin: 100% 0;
+  font-variation-settings: "wght" 800;
+  letter-spacing: -0.001em;
+  font-size: 1.7em;
+  text-align: end;
+  width: 16rem;
+  line-height: 1.2em;
+  position: absolute;
+  text-transform: uppercase;
+  top: 2rem;
+  bottom: 0%;
+  color: #c1f77a;
+}
+
+ 
+@media screen and (max-width: 1440px) {
+  .front p {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .cardBst{
+    height: 22rem;
+  }
+
+  .c-network {
+    height: 1em;
+    font-size: 3em;
+    width: 16rem;
+    line-height: 1em;
+    top: 11rem;
+    bottom: 0%;
+    left: -11rem;
+  }
+
+  .c-network-title{
+    height: 1em;
+    font-size: 1.5em;
+    width: 16rem;
+    line-height: 1.2em;
+    top: 2rem;
+    right: 1rem;
+    bottom: 0%;
+    color: #c1f77a;
+  }
+}
+
+@media screen and (max-width: 1108px) {
+  .box_cards_discover {
+    justify-items: center;
+  }
+  .cardBst {
+    width: 100%;
+  }
+  .front p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .front:before {
+    opacity: 0.3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cardBst {
+    max-width: 100%;
+    flex: 1 1 0%;
+    height: 22rem;
+  }
+  .front p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .c-network-title{
+    font-size: 1.7rem;
+    right: 1.5rem;
+  }
+
+}

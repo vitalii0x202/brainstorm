@@ -1,0 +1,23 @@
+.contact_title {
+  font-size: 3.4rem;
+  line-height: 130%;
+  color: #b0f753;
+  font-weight: 900;
+  position: relative;
+}
+
+.contact_form {
+  filter: drop-shadow(0 0 10px rgba(21, 34, 22, 0.788));
+}
+
+@media screen and (max-width: 1440px) {
+  .contact_title {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_title {
+    font-size: 2.4rem;
+  }
+}
