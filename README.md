@@ -73,37 +73,37 @@ This project delivers business enterprise revenue and use cases to the NEAR ecos
 
 # ⚙️ Installation
 
-# Clone the repository
+**Clone the repository**
 git clone https://github.com/vitalii0x202/brainstorm.git
 
-# Navigate to the project directory
+**Navigate to the project directory**
 cd brainstorm
 
-# Install dependencies
+**Install dependencies**
 npm install
 
 
 
-🚀 Usage
+# 🚀 Usage
 
-# Start the development server
+**Start the development server**
 npm run dev
 
 Then open your browser and go to:
 👉 [http://localhost:3000](http://localhost:3000)
 
-# Build for production
+**Build for production**
 npm run build
 
-# Start production server
+**Start production server**
 npm start
 
-# Run linting
+**Run linting**
 npm run lint
 
 
 
-🧾 Configuration
+# 🧾 Configuration
 
 Create a `.env.local` file in the root directory with the following environment variables:
 
@@ -115,13 +115,13 @@ NEXT_PUBLIC_ANALYTICS_ID=your_google_analytics_id_here
 
 
 
-🖼 Screenshots
+# 🖼 Screenshots
 
 ![Landing Page](public/landing.png)
 
 
 
-📜 API Documentation
+# 📜 API Documentation
 
 This is primarily a frontend application built with Next.js. The project integrates with:
 
@@ -149,7 +149,7 @@ For detailed API documentation related to the Brainstorm Protocol and NEAR integ
 
 
 
-🌟 Acknowledgements
+# 🌟 Acknowledgements
 
 **NEAR Protocol** – For providing the blockchain infrastructure and NEAR Intent technology for chain abstraction
 
