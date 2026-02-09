@@ -143,9 +143,9 @@ For detailed API documentation related to the Brainstorm Protocol and NEAR integ
 
 **Medium:** [@brainstorm_ai](https://medium.com/@brainstorm_ai)
 
-**GitHub:** @yourgithub
+**GitHub:** @vitalii0x202
 
-**Email:** your.email@example.com
+**Email:** vitaliihavryliuk1@gmail.com
 
 
 
